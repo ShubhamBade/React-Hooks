@@ -6,6 +6,8 @@ import UseLayoutEffectHook from './hooks/useEffectHooks/UseLayoutEffectHook'
 import UseRefHook from './hooks/useRefHook/UseRefHook'
 import UseImperativeHook from './hooks/useImperativeHook/UseImperativeHook'
 import UseContextHook from './hooks/UseContextHook/UseContextHook'
+import UseMemoHook from './hooks/usememoHook/UseMemoHook'
+import UseCallbackHook from './hooks/useCallbackHook/UseCallbackHook'
 
 function App() {
   return (
@@ -16,7 +18,9 @@ function App() {
       {/* <UseLayoutEffectHook /> */}
       {/* <UseRefHook /> */}
       {/* <UseImperativeHook /> */}
-      <UseContextHook />
+      {/* <UseContextHook /> */}
+      {/* <UseMemoHook /> */}
+      <UseCallbackHook />
     </div>
   )
 }
